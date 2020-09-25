@@ -1,14 +1,14 @@
 # Network Switch
 Implementation of basic switch operations such as traffic generation, packet scheduling, and packet transmission.
 The switch uses input queues, output queues, and ISLIP scheduling algorithms with virtual output queues.
-* Pragram Consists of 
+## Pragram Consists of 
     1. Source Code File : routing.cpp
     2. Sample Output file : output.txt (default)
     3. makefile : to change the permission and compile the source code file
     4. technical report
     5. README.txt
 
-* How to run the program
+## How to run the program
     1. compile the program :
         $ make
     2. run the program :
@@ -16,7 +16,7 @@ The switch uses input queues, output queues, and ISLIP scheduling algorithms wit
         $ ./routing -N 8 -B 4 -p 0.5 -queue KOUQ -K 4 -out output.txt -T 10000
         $ ./routing -N 8 -B 4 -p 0.5 -queue ISLIP -out output.txt -T 10000
 
-* Output Format on the console : 
+## Output Format on the console : 
     1. for INQ :
         B: 4
         T: 10000
@@ -55,7 +55,7 @@ The switch uses input queues, output queues, and ISLIP scheduling algorithms wit
         p = packetgenprob
         PD = packet delay
 
-* Output format in the file : 
+## Output format in the file : 
     N | p | Queue type | Avg PD | Std Dev of PD | Avg link utilization    
 
     8	0.500000	INQ	2.096721	1.130865	0.499375
