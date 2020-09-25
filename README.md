@@ -1,3 +1,6 @@
+# Network Switch
+Implementation of basic switch operations such as traffic generation, packet scheduling, and packet transmission.
+The switch uses input queues, output queues, and ISLIP scheduling algorithms with virtual output queues.
 * Pragram Consists of 
     1. Source Code File : routing.cpp
     2. Sample Output file : output.txt (default)
